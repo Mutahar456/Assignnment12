@@ -8,15 +8,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/KanzaTahreem/Awesome-Books.git"
+    "url": "https://github.com/Mutahar456/Assignnment12.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/KanzaTahreem/Awesome-Books/issues"
+    "url": "https://github.com/Mutahar456/Assignnment12/issues"
   },
-  "homepage": "https://github.com/KanzaTahreem/Awesome-Books#readme",
+  "homepage": "https://github.com/Mutahar456/Assignnment12#readme",
   "devDependencies": {
     "babel-eslint": "^10.1.0",
     "eslint": "^7.32.0",
