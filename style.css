@@ -1,4 +1,4 @@
-/* Updated CSS with a different style */
+/* Updated CSS with a colorful style */
 
 /* Importing a different font */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
@@ -13,7 +13,7 @@
 body {
   font-family: 'Poppins', sans-serif;
   line-height: 1.6;
-  background-color: #f9f9f9;
+  background-color: #f0f0f0;
   color: #333;
 }
 
@@ -23,31 +23,32 @@ header {
   justify-content: space-between;
   align-items: center;
   padding: 1em;
-  background-color: #ffffff;
+  background-color: #ff6f61; /* Reddish background color */
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  color: #fff; /* White text color */
 }
 
 nav > a {
   text-decoration: none;
-  color: #333;
+  color: #fff; /* White text color */
   padding: 0.5em 1em;
   transition: color 0.3s ease;
 }
 
 nav > a:hover {
-  color: #555;
+  color: #ffd700; /* Yellowish text color on hover */
 }
 
 nav > a:nth-child(2) {
-  border-left: 1px solid #999;
-  border-right: 1px solid #999;
+  border-left: 1px solid #fff; /* White border color */
+  border-right: 1px solid #fff; /* White border color */
 }
 
 /* Main section styles */
 section {
   width: 100%;
   padding: 1em;
-  background-color: #ffffff;
+  background-color: #fff;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
@@ -73,42 +74,45 @@ footer {
   justify-content: center;
   align-items: center;
   padding: 1em;
-  background-color: #ffffff;
+  background-color: #ff6f61; /* Reddish background color */
   box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1);
-  color: #555;
+  color: #fff; /* White text color */
   font-size: 0.9em;
 }
 
 /* Other styles (you can update as needed) */
 .book-div {
-  border: 1px solid #ddd;
+  border: 1px solid #ffcc5c; /* Yellow border color */
   padding: 1em;
   margin: 1em 0;
   border-radius: 5px;
-  background-color: #f7f7f7;
+  background-color: #00b2ca; /* Bluish background color */
+  color: #fff; /* White text color */
 }
 
 .new-book {
   width: 50%;
   margin: 2em auto;
   padding: 2em;
-  border: 1px solid #ddd;
+  border: 1px solid #ffcc5c; /* Yellow border color */
   border-radius: 5px;
-  background-color: #f7f7f7;
+  background-color: #00b2ca; /* Bluish background color */
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  color: #fff; /* White text color */
 }
 
 input {
   padding: 0.8em;
   margin-bottom: 1em;
-  border: 1px solid #ccc;
+  border: 1px solid #fff; /* White border color */
   border-radius: 3px;
   transition: border-color 0.3s ease;
+  color: #333; /* Dark text color */
 }
 
 input:focus {
   outline: none;
-  border-color: #555;
+  border-color: #ffd700; /* Yellowish border color on focus */
 }
 
 .add,
@@ -118,10 +122,11 @@ input:focus {
   border-radius: 3px;
   cursor: pointer;
   transition: background-color 0.3s ease, color 0.3s ease;
+  color: #fff; /* White text color */
 }
 
 .add:hover,
 .remove:hover {
-  background-color: #333;
-  color: #fff;
+  background-color: #ff6f61; /* Reddish background color on hover */
+  color: #fff; /* White text color */
 }
